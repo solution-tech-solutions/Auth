@@ -1,0 +1,44 @@
+{
+  "name": "hungry-eater",
+  "version": "1.0.0",
+  "description": "##### Hungry Eater is a simple game where you have to eat as much as you can. #####",
+  "main": "index.js",
+  "author": "Ziyad",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "@typegoose/typegoose": "^9.2.0",
+    "@types/cors": "^2.8.12",
+    "@types/express-list-endpoints": "^6.0.0",
+    "@types/lodash": "^4.14.186",
+    "apollo-server-express": "^3.10.2",
+    "bcrypt": "^5.1.0",
+    "class-validator": "^0.13.2",
+    "config": "^3.3.6",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express-list-endpoints": "^6.0.0",
+    "express": "^4.18.1",
+    "graphql": "15.x",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.6.5",
+    "nanoid": "^3.1.30",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/config": "^0.0.40",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/express": "^4.17.14",
+    "@types/jsonwebtoken": "^8.5.6",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.4"
+  }
+}
